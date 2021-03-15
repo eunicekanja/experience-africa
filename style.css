@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans Condensed,sans-serif;
+}
+.showcase{
+  position: absolute;
+  right:0;
+  width:100%;
+  min-height: 100vh;
+  padding:100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color:#fff;
+  z-index:2 ;
+}
+.showcase .toggle{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-image: url("menu1.png") no-repeat;
+}
